@@ -1,0 +1,109 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif
+}
+
+.hamburger span {
+    background-color: #25a8a8 !important;
+}
+
+.boxshadowimg {
+    -webkit-box-shadow: 20px 20px 0px 4px rgba(37, 168, 168, 1);
+    -moz-box-shadow: 20px 20px 0px 4px rgba(37, 168, 168, 1);
+    box-shadow: 20px 20px 0px 4px rgba(37, 168, 168, 1);
+    margin-top: 55px;
+}
+
+.headone {
+    background: url(https://images.unsplash.com/photo-1535017614657-1c6f308729b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=872&q=80);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mainpull {
+    margin-top: -35vh;
+    width: 100% !important;
+    padding-bottom: 100px;
+}
+
+.aboutclass {
+    height: 64vh;
+    background: #f4f4f4;
+    padding-left: 12vh;
+    padding-right: 12vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
+.aboutclass h2 {
+    font-weight: 600 !important;
+    padding-bottom: 4vh;
+}
+
+.aboutclass p {
+    padding-bottom: 4vh;
+    color: rgba(51, 51, 51, 0.62);
+}
+
+a.learnmore {
+    padding: 18px 33px;
+    background: #333;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid #333;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.learnmore:hover {
+    background: transparent;
+    color: #333;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.learnmore:active {
+    background: rgba(51, 51, 51, 0.11);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.wwd {
+    background: none;
+    width: 100%;
+    text-align: left;
+    font-weight: 900;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.56);
+}
+
+.wwd:hover {
+    cursor: pointer;
+}
+
+.wwd:active,
+.wwd:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.stretchright {
+    float: right;
+    padding-top: 5px;
+}
+
+.navbar-inverse {
+    background: green !important;
+}
