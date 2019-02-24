@@ -21,6 +21,12 @@ html {
     background-repeat: no-repeat;
 }
 
+.headservices {
+    background: url(assets/images/gif2.gif);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+}
+
 .mainpull {
     margin-top: -35vh;
     width: 100% !important;
@@ -76,6 +82,15 @@ a.learnmore:active {
     -o-transition: all .3s ease;
 }
 
+.aboutclass2 {
+        height: 64vh;
+    background: #ff3434;
+    padding-left: 12vh;
+    padding-right: 12vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
 .wwd {
     background: none;
     width: 100%;
@@ -106,4 +121,23 @@ a.learnmore:active {
 
 .navbar-inverse {
     background: green !important;
+}
+
+/* services page */
+
+.demosec {
+    background: #efefef;
+    padding-top:55px;
+    padding-bottom:55px;
+}
+
+.serclass {
+    background: white;
+    padding:20px;
+    border:2px solid#eaeaea;
+    margin-bottom:-15px;
+}
+
+.imgani {
+    margin-bottom: 15px;
 }
